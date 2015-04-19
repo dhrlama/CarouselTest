@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- android:clickable allows user-interaction with the map, like panning and zooming -->
+    <!-- The android:apiKey value will look something like 19pTmji6NUULWO2OGr5HGYNX3JEKGAqvZWqbQtx -->
+    <com.google.android.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="Your Maps API Key goes here"
+    />
